@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-grid.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="script.js"></script>
+    <title>Roomook</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <!-- Header nav-->
+            <div class="header-nav">
+                <nav class="nav">
+                    <a href="#!" class="logo">
+                        <img style="display: block;" class= "lox" src="./img/Frame.png" alt="Logo">
+                    </a>
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#!" class="nav-link">О нас</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Каталог</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Сотрудничество</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Обучение</a></li>
+                    </ul>
+
+                </nav>
+                    <div class="nav-right">
+                        <a class="language">Ru</a>
+                        <a href="" class="nav-not">
+                            <img src="./img/notification.png" alt="Notification">
+                        </a>
+                        <a href="" class="nav-btn">Регистрация</a>
+                    </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="main">
+                <div class="container">
+                    <div class="main__content">
+                       <div class="aman">
+                        <div class="main__title display1">
+                            <span class="accent-text">Найдите жилье</span>
+                            <span class="accent-text2">для новой поездки</span>
+                        </div>
+                        </div>
+                        <p class="main__desc">Ищите спецпредложения на апартаменты, дома и другие варианты.</p>
+                        <form action="" class="main__form">
+                        <style>
+
+
+  </style>
+<fieldset class="form-group">
+    <input id="comeTopApart" class="date-input" type="text" placeholder="Заезд"
+    onfocus="showAdditionalText()" onblur="hideAdditionalText()"/> 
+    <p id="additionalText" style="display: none;">Заезд</p>
+</fieldset>
+
+
+
+<fieldset class="form-group">
+    <input id="leaveFromApart" class="date-input"  placeholder="Отьезд" type="text" 
+  onfocus="showAdditionalTex()" onblur="hideAdditionalTex()"/
+  >
+<p id="additionalTex" style="display: none;">Отьезд</p>
+</fieldset>
+
+<fieldset class="form-group main__full">
+    <select id="personInRoom" class="styled-select">
+        <option selected="" hidden="">Гостей</option>
+        <option>1 гость</option>
+        <option>2 гостя</option>
+        <option>3 гостя</option>
+    </select>
+</fieldset>
+
+<button class="main__btn m-btn m-btn-secondary">Найти</button>
+
+                        </form>
+                    </div>
+                    <div style="z-index: -1;" class="main__images">
+                        <img src="img/smile.svg" alt="" class="main__smile">
+                        <div class="container">
+                            <img src="img/couple.png" alt="" class="main__couple">
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </div>  
+    
+    <section class="advantages">
+                <div class="container">
+    <div class="swiper-container swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+        <div class="swiper-wrapper" id="swiper-wrapper-f39c661692f2c61f" aria-live="polite" style="transform: translate3d(0px, 0px, 0px);">
+            <div class="advantage-card swiper-slide swiper-slide-active" style="background: rgb(255, 247, 171); margin-right: 29px;" role="group" aria-label="1 / 4">
+                <div class="advantage-card__icon">
+                    <img src="./img/Rectangle%201433.png" alt="">
+                </div>
+                <div class="advantage-card__title display4">
+                    Низкие цены
+                </div>
+                <p class="advantage-card__desc body-text gray-text3">
+                    Мы работаем напрямую с десятками поставщиков и контролируем цены.
+                </p>
+            </div>
+            <div class="advantage-card swiper-slide swiper-slide-next" style="background: rgb(208, 255, 209); margin-right: 29px;" role="group" aria-label="2 / 4">
+                <div class="advantage-card__icon">
+                    <img src="./img/Rectangle%201433.png" alt="">
+                </div>
+                <div class="advantage-card__title display4">
+                    Большой выбор
+                    комфортабельных апартаментов
+                </div>
+                <p class="advantage-card__desc body-text gray-text3">
+                    Поэтому у нас всегда есть выгодные предложения .
+                </p>
+            </div>
+            <div class="advantage-card swiper-slide" style="background: rgb(226, 203, 255); margin-right: 29px;" role="group" aria-label="3 / 4">
+                <div class="advantage-card__icon">
+                    <img src="./img/Rectangle%201433.png" alt="">
+                </div>
+                <div class="advantage-card__title display4">
+                    Высокий уровень обслуживания
+                </div>
+                <p class="advantage-card__desc body-text gray-text3">
+                    Мы работаем напрямую с десятками поставщиков и контролируем цены. У нас всегда есть выгодные предложения .
+                </p>
+            </div>
+            <div class="advantage-card swiper-slide" role="group" aria-label="4 / 4" style="margin-right: 29px;">
+                <div class="advantage-card__icon">
+                    <img src="./img/Rectangle%201433.png" alt="">
+                </div>
+                <div class="advantage-card__title display4">
+                    Предоставляем все отчетные документы
+                </div>
+                <p class="advantage-card__desc body-text gray-text3">
+                    Мы работаем напрямую с десятками поставщиков и контролируем цены.
+                </p>
+            </div>
+        </div>
+    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+</div>
+
+            </section>
+            
+            <section class="feedback">
+                <div class="container">
+    <div class="feedback__inner">
+        <div class="feedback__content">
+            <div  style=""class="feedback__title display2">
+                <span class="accent-text">Отзывы</span>
+                клиентов
+                о нашей работе
+            </div>
+            <p class="feedback__desc body-text gray-text3">
+                Мы получаем много отзывов о нашей работе от клиентов.
+                Решили поделиться некоторыми из них!
+            </p>
+            <a  style=" text-decoration: none; color: white"href="" class="feedback__link m-btn m-btn-primary">
+                Подробнее
+            </a>
+            
+        </div>
+        <div class="feedback__img">
+            <img class="img" src="img/feedback%20(1).webp" alt="">
+        </div>
+    </div>
+</div>
+
+            </section>
+            <section class="apart tabs-parent">
+                <div class="container">
+                    <div class="apart__title display2">
+                        <span class="accent-text">Апартаменты,</span>
+                        которые нравятся гостям
+                    </div>
+                    <div class="apart__tabs tabs">
+    <div class="tabs-wrap">
+        <div class="tab _active" data-tab="apart">
+            Квартиры
+        </div>
+        <div class="tab" data-tab="villa">
+            Виллы
+        </div>
+        <div class="tab" data-tab="cottage">
+            Котеджи
+        </div>
+        <div class="tab" data-tab="apart-hotel">
+            Апарт-отели
+        </div>
+        <div class="tab" data-tab="hotel">
+            Отели
+        </div>
+        <div  style="background: #CBD2DC"class="tab" data-tab="all">
+            Все
+        </div>
+    </div>
+</div>
+
+                    <div class="tab-content tab-apart _active">
+                        <div class="apart__grid">
+                            <div class="apart-card">
+    <div class="apart-card__top">
+        <div class="apart-card__img">
+            <img src="img/Rectangle%201328.png" alt="">
+        </div>
+        
+    <a class="tt">Супер хозяин</a>
+        <button class="apart-card__favourite fav-btn">
+
+        </button>
+    </div>
+
+
+<div class="apart-card__content" onmouseover="hideHidden(this)" onmouseout="showHidden(this)">
+    <!-- Ваш контент -->
+    <a href="" class="apart-card__title">
+        2-к квартира, 90 кв.м.,
+        улица Заморёнова
+    </a>
+    <div class="apart-card__city body-text2 gray-text">Анапа</div>
+
+    <div class="apart-card__hidden">
+        <div class="apart-card__rating body-text2 gray-text">
+            <img src="img/star.png" alt="">
+            <span>4.9 (178)</span>
+        </div>
+        <div class="apart-card__props">
+            <div class="apart-card__prop body-text2">
+                <span class="apart-card__prop-title gray-text">Общая площадь</span>
+                <span class="apart-card__prop-desc">90 м2</span>
+            </div>
+            <div class="apart-card__prop body-text2">
+                <span class="apart-card__prop-title gray-text">Количество комнат</span>
+                <span class="apart-card__prop-desc">2 шт.</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="apart-card__bottom">
+        <div class="apart-card__convinients">
+        <img src="./img/Frame%20(1).png" alt="">
+        <img src="./img/Frame%20(1).png" alt="">
+        <img src="./img/Frame%20(1).png" alt="">
+        <img src="./img/Frame%20(1).png" alt="">
+        <img src="./img/Frame%20(1).png" alt="">
+        </div>
+        <div class="apart-card__nav">
+            <div class="apart-card__price display4">
+                3 750 Р
+            </div>
+            <button class="apart-card__toggle">
+                <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 1.00004L8.92896 8.07111L1.85789 1.00004" stroke="#AEBED6" stroke-width="2" stroke-linecap="round"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+
+                            <div class="apart-card">
+    <div class="apart-card__top">
+        <div class="apart-card__img">
+            <img src="img/Rectangle%201328.png" alt="">
+        </div>
+
+        <div class="apart-card__badges">
+            <span class="apart-card__badge ">
+           
+            </span>
+        </div>
+        
+        <button class="apart-card__favourite fav-btn">
+
+        </button>
+    </div>
+
+    <div class="apart-card__content" onmouseover="hideHidden(this)" onmouseout="showHidden(this)">
+        <a href="" class="apart-card__title">
+            2-к квартира, 90 кв.м.,
+            улица Заморёнова
+        </a>
+        <div class="apart-card__city body-text2 gray-text">Анапа</div>
+
+        <div class="apart-card__hidden" style="display: none;">
+            <div class="apart-card__rating body-text2 gray-text">
+                <img src="img/star.png" alt="">
+                <span>4.9 (178)</span>
+            </div>
+            <div class="apart-card__props">
+            <div class="apart-card__prop body-text2">
+                <span class="apart-card__prop-title gray-text">Общая площадь</span>
+                <span class="apart-card__prop-desc">90 м2</span>
+            </div>
+            <div class="apart-card__prop body-text2">
+                <span class="apart-card__prop-title gray-text">Количество комнат</span>
+                <span class="apart-card__prop-desc">2 шт.</span>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="apart-card__bottom">
+        <div class="apart-card__convinients">
+        <img src="./img/Frame%20(1).png" alt="">
+        <img src="./img/Frame%20(1).png" alt="">
+        <img src="./img/Frame%20(1).png" alt="">
+        <img src="./img/Frame%20(1).png" alt="">
+        <img src="./img/Frame%20(1).png" alt="">
+        </div>
+        <div class="apart-card__nav">
+            <div class="apart-card__price display4">
+                3 750 Р
+            </div>
+            <button class="apart-card__toggle">
+                <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 1.00004L8.92896 8.07111L1.85789 1.00004" stroke="#AEBED6" stroke-width="2" stroke-linecap="round"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+
+                            <div class="apart-card">
+    <div class="apart-card__top">
+        <div class="apart-card__img">
+            <img src="img/Rectangle%201328.png" alt="">
+        </div>
+<a class="tt">Супер хозяин</a>
+        <div class="apart-card__badges">
+            <span class="apart-card__badge badge-purple">
+
+            </span>
+        </div>
+        
+        <button class="apart-card__favourite fav-btn">
+
+        </button>
+    </div>
+
+    <div class="apart-card__content" onmouseover="hideHidden(this)" onmouseout="showHidden(this)">
+        <a href="#!" class="apart-card__title">
+            2-к квартира, 90 кв.м.,
+            улица Заморёнова
+        </a>
+        <div class="apart-card__city body-text2 gray-text">Анапа</div>
+
+        <div class="apart-card__hidden" style="display: none;">
+            <div class="apart-card__rating body-text2 gray-text">
+                <img src="img/star.png" alt="">
+                <span>4.9 (178)</span>
+            </div>
+            <div class="apart-card__props">
+            <div class="apart-card__prop body-text2">
+                <span class="apart-card__prop-title gray-text">Общая площадь</span>
+                <span class="apart-card__prop-desc">90 м2</span>
+            </div>
+            <div class="apart-card__prop body-text2">
+                <span class="apart-card__prop-title gray-text">Количество комнат</span>
+                <span class="apart-card__prop-desc">2 шт.</span>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="apart-card__bottom">
+        <div class="apart-card__convinients">
+        <img src="./img/Frame%20(1).png" alt="">
+        <img src="./img/Frame%20(1).png" alt="">
+        <img src="./img/Frame%20(1).png" alt="">
+        <img src="./img/Frame%20(1).png" alt="">
+        <img src="./img/Frame%20(1).png" alt="">
+        </div>
+        <div class="apart-card__nav">
+            <div class="apart-card__price display4">
+                3 750 Р
+            </div>
+            <button class="apart-card__toggle">
+                <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 1.00004L8.92896 8.07111L1.85789 1.00004" stroke="#AEBED6" stroke-width="2" stroke-linecap="round"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+
+        <div class="apart-card">
+    <div class="apart-card__top">
+        <div class="apart-card__img">
+            <img src="img/Rectangle%201328.png" alt="">
+        </div>
+
+        <button class="apart-card__favourite fav-btn">
+
+        </button>
+    </div>
+
+    <div class="apart-card__content" onmouseover="hideHidden(this)" onmouseout="showHidden(this)">
+        <a href="" class="apart-card__title">
+            2-к квартира, 90 кв.м.,
+            улица Заморёнова
+        </a>
+        <div class="apart-card__city body-text2 gray-text">Анапа</div>
+
+        <div class="apart-card__hidden" style="display: none;">
+            <div class="apart-card__rating body-text2 gray-text">
+                <img src="img/star.png" alt="">
+                <span>4.9 (178)</span>
+            </div>
+            <div class="apart-card__props">
+            <div class="apart-card__prop body-text2">
+                <span class="apart-card__prop-title gray-text">Общая площадь</span>
+                <span class="apart-card__prop-desc">90 м2</span>
+            </div>
+            <div class="apart-card__prop body-text2">
+                <span class="apart-card__prop-title gray-text">Количество комнат</span>
+                <span class="apart-card__prop-desc">2 шт.</span>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="apart-card__bottom">
+        <div class="apart-card__convinients">
+        <img src="./img/Frame%20(1).png" alt="">
+        <img src="./img/Frame%20(1).png" alt="">
+        <img src="./img/Frame%20(1).png" alt="">
+        <img src="./img/Frame%20(1).png" alt="">
+        <img src="./img/Frame%20(1).png" alt="">
+        </div>
+        <div class="apart-card__nav">
+            <div class="apart-card__price display4">
+                3 750 Р
+            </div>
+            <button class="apart-card__toggle">
+                <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 1.00004L8.92896 8.07111L1.85789 1.00004" stroke="#AEBED6" stroke-width="2" stroke-linecap="round"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                    
+    </div>
+
+<section class="cooperate">
+                <div class="container">
+                    <div class="cooperate__title display2">
+                        Сотрудничество
+                    </div>
+                    <p class="cooperate__desc body-text gray-text3">
+                        Ограниченное партнёрство с B-Flats - это Ваша возможность выстроить стабильный классический бизнес по посуточной аренде с командой профессионалов.
+                        B-Flats предоставляет инфраструктуру для ведения деятельности в сфере посуточной аренды.
+                    </p>
+                    <div class="cooperate__grid">
+                        <div class="cooperate-card" style="background: #A7C1EE;">
+                            <div class="cooperate-card__title display4">
+                                Бизнес модель
+                            </div>
+                            <p class="cooperate-card__desc body-text">
+                                Отработанная модель ведения бизнеса позволяет иметь стабильный доход на постоянной основе.
+                            </p>
+                            <div class="cooperate-card__img">
+                                <img src="img/image%2010.png" alt="">
+                            </div>
+                            <button class="cooperate-card__btn m-btn m-btn-white">
+                                Оформить партнерство
+                            </button>
+                        </div>
+                        <div class="cooperate-card" style="background: #EBC0CF;">
+                            <div class="cooperate-card__title display4">
+                                Более 500 партнеров
+                            </div>
+                            <p class="cooperate-card__desc body-text">
+                                За время работы нашей компании,
+                                мы осчастливили огромное количество людей!
+                            </p>
+                            <div class="cooperate-card__img">
+                                <img src="img/image%2012.png" alt="">
+                            </div>
+                            <button class="cooperate-card__btn m-btn m-btn-white">
+                                Оформить партнерство
+                            </button>
+                        </div>
+                        <div class="cooperate-card cooperate-card2" style="background: #FFF2AB;">
+                            <div class="cooperate-card__title display4">
+                                Мы работаем <br>
+                                в разных странах
+                            </div>
+                            <p class="cooperate-card__desc body-text">
+                                Мы активно расширяем область обслуживания.  Сейчас наши партнеры работают по России,  в Казахстане, Белоруссии, Украине и Италии.
+                            </p>
+                            <div class="cooperate-card__img">
+                                <img src="img/image%2013.png" alt="">
+                            </div>
+                            <button class="cooperate-card__btn m-btn m-btn-white">
+                                Оформить партнерство
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+<section class="companies">
+    <div class="container">
+        <div class="companies__slider">
+            <div class="swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                <div class="swiper-wrapper" id="swiper-wrapper-6eb01aa51e636563" aria-live="polite" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+                    <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5" style="margin-right: 51px;">
+                        <img src="img/company.svg" alt="" class="company-img">
+                    </div>
+                    <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 5" style="margin-right: 51px;">
+                        <img src="img/company2.svg" alt="" class="company-img">
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="3 / 5" style="margin-right: 51px;">
+                        <img src="img/company3.svg" alt="" class="company-img">
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="4 / 5" style="margin-right: 51px;">
+                        <img src="img/company4.svg" alt="" class="company-img">
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="5 / 5" style="margin-right: 51px;">
+                        <img src="img/company5.svg" alt="" class="company-img">
+                    </div>
+                </div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+            
+            
+            <section class="educate feedback">
+                <div class="container">
+    <div class="feedback__inner">
+        <div class="feedback__content">
+            <div class="feedback__title display2">
+                <span class="accent-text">Обучение</span>
+                бизнесу,
+                арендодателей
+            </div>
+            <p class="feedback__desc body-text gray-text3">
+                Мы получаем много отзывов о нашей работе от клиентов.
+                Решили поделиться некоторыми из них!
+            </p>
+            <a style=" text-decoration: none; color: black"href="" class="feedback__link m-btn m-btn-white">
+                Подробнее
+            </a>
+        </div>
+        <div class="feedback__img">
+            <img src="img/Mask%20group.png" alt="">
+        </div>
+    </div>
+</div>
+
+            </section>
+    
+    
+    <!-- Отступы для футер-->
+<footer class="footer">
+            
+<div class="container">
+    <div class="footer__inner">
+        <a href="index.html" class="footer__logo logo">
+            <img src="img/Frame.png" alt="">
+        </a>
+        
+        <nav class="footer-nav nav">
+            <a href="" class="nav__item">О нас</a>
+            <a href="" class="nav__item">Каталог</a>
+            <a href="" class="nav__item">Сотрудничество</a>
+            <a href="" class="nav__item">Обучение</a>
+        </nav>
+    </div>
+    <div class="footer__conf"></div>
+</div>
+
+        </footer>
+        
+</body>
+</html>
+
+
+
+
